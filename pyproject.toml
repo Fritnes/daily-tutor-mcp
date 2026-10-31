@@ -22,7 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Education",
 ]
-dependencies = ["mcp>=1.9,<2", "tzdata"]
+dependencies = ["mcp>=1.9,<3", "tzdata"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6"]
